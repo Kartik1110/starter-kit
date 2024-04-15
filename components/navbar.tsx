@@ -51,9 +51,7 @@ export const Navbar = () => {
           </NextLink>
         </NavbarBrand>
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
-
           <NavbarTabs navItems={SITE_CONFIG.navItems} />
-
         </ul>
       </NavbarContent>
 

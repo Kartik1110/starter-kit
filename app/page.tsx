@@ -3,6 +3,7 @@ import { Link } from "@nextui-org/link";
 import { title, subtitle } from "@/components/primitives";
 import Card from "@/components/card";
 import { SITE_CONFIG } from "@/config/site";
+import { Featured } from "@/components/featured";
 
 export default function Home() {
   return (
@@ -21,18 +22,14 @@ export default function Home() {
       </div>
       <div className="flex gap-3">
         <Link
-          isExternal
-          href={SITE_CONFIG.links.docs}
           className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
         >
           Get Started
         </Link>
       </div>
 
-      <div>
-        <Card />
-      </div>
-
+      <Card />
+      <Featured />
     </section>
   );
 }
