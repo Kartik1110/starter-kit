@@ -39,6 +39,6 @@ export const SITE_CONFIG = {
     sponsor: "https://patreon.com/jrgarciadev"
   },
   text: {
-    subtitle: "Beautiful, fast and modern React UI library."
+    subtitle: "Get sales, growth and new networks. Faster than what you're currently trying."
   }
 };
